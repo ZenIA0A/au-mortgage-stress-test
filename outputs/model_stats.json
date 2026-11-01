@@ -1,0 +1,325 @@
+{
+ "best_lag_npl_level": 5,
+ "best_corr_npl_level": 0.96,
+ "best_lag_npl_change": 5,
+ "best_corr_npl_change": 0.92,
+ "best_lag_pd_change": 3,
+ "best_corr_pd_change": 0.89,
+ "pastdue_to_npl_change_corr": [
+  [
+   0,
+   0.69,
+   19
+  ],
+  [
+   1,
+   0.85,
+   19
+  ],
+  [
+   2,
+   0.91,
+   19
+  ],
+  [
+   3,
+   0.89,
+   19
+  ],
+  [
+   4,
+   0.78,
+   19
+  ],
+  [
+   5,
+   0.6,
+   19
+  ],
+  [
+   6,
+   0.34,
+   19
+  ]
+ ],
+ "oos_rmse": {
+  "1": {
+   "naive": 0.048,
+   "ar1": 0.057,
+   "burden": 0.045,
+   "burden_ecm": 0.038
+  },
+  "2": {
+   "naive": 0.079,
+   "ar1": 0.113,
+   "burden": 0.059,
+   "burden_ecm": 0.061
+  },
+  "3": {
+   "naive": 0.093,
+   "ar1": 0.167,
+   "burden": 0.06,
+   "burden_ecm": 0.096
+  },
+  "4": {
+   "naive": 0.1,
+   "ar1": 0.238,
+   "burden": 0.063,
+   "burden_ecm": 0.088
+  },
+  "5": {
+   "naive": 0.113,
+   "ar1": 0.347,
+   "burden": 0.071,
+   "burden_ecm": 0.179
+  }
+ },
+ "oos_n": {
+  "1": 10,
+  "2": 9,
+  "3": 8,
+  "4": 7,
+  "5": 6
+ },
+ "oos_gain_h4_vs_naive_pct": 38.0,
+ "oos_wins": {
+  "1": {
+   "wins": 5,
+   "n": 10,
+   "p_one_sided": 0.623
+  },
+  "2": {
+   "wins": 7,
+   "n": 9,
+   "p_one_sided": 0.09
+  },
+  "3": {
+   "wins": 7,
+   "n": 8,
+   "p_one_sided": 0.035
+  },
+  "4": {
+   "wins": 7,
+   "n": 7,
+   "p_one_sided": 0.008
+  },
+  "5": {
+   "wins": 5,
+   "n": 6,
+   "p_one_sided": 0.109
+  }
+ },
+ "fit": {
+  "const": 0.463,
+  "slope": 0.0601,
+  "slope_hac_se": 0.0046,
+  "r2": 0.91,
+  "n": 19,
+  "resid_sd": 0.042,
+  "lag": 5,
+  "durbin_watson": 1.0
+ },
+ "lag_sensitivity": [
+  {
+   "lag": 3,
+   "slope": 0.058,
+   "hac_se": 0.008,
+   "r2": 0.707,
+   "n": 19
+  },
+  {
+   "lag": 4,
+   "slope": 0.06,
+   "hac_se": 0.006,
+   "r2": 0.854,
+   "n": 19
+  },
+  {
+   "lag": 5,
+   "slope": 0.06,
+   "hac_se": 0.005,
+   "r2": 0.914,
+   "n": 19
+  },
+  {
+   "lag": 6,
+   "slope": 0.058,
+   "hac_se": 0.005,
+   "r2": 0.893,
+   "n": 19
+  },
+  {
+   "lag": 7,
+   "slope": 0.056,
+   "hac_se": 0.008,
+   "r2": 0.797,
+   "n": 19
+  }
+ ],
+ "robustness": {
+  "burden only": {
+   "n": 19,
+   "coefs": {
+    "x": [
+     0.06,
+     0.005
+    ]
+   },
+   "r2": 0.91
+  },
+  "+ unemployment": {
+   "n": 19,
+   "coefs": {
+    "x": [
+     0.054,
+     0.004
+    ],
+    "u": [
+     0.081,
+     0.021
+    ]
+   },
+   "r2": 0.94
+  },
+  "+ house price growth": {
+   "n": 18,
+   "coefs": {
+    "x": [
+     0.059,
+     0.003
+    ],
+    "hp4": [
+     0.003,
+     0.001
+    ]
+   },
+   "r2": 0.94
+  },
+  "+ both": {
+   "n": 18,
+   "coefs": {
+    "x": [
+     0.056,
+     0.004
+    ],
+    "u": [
+     0.053,
+     0.026
+    ],
+    "hp4": [
+     0.002,
+     0.001
+    ]
+   },
+   "r2": 0.94
+  }
+ },
+ "turning_point": {
+  "rmse_model": 0.029,
+  "rmse_naive_last_train_value": 0.043,
+  "peak_actual": "2025Q1",
+  "n_test": 6
+ },
+ "spurious_checks": {
+  "quarterly change": {
+   "slope": 0.042,
+   "se": 0.012,
+   "r2": 0.24,
+   "n": 19
+  },
+  "four-quarter change": {
+   "slope": 0.094,
+   "se": 0.01,
+   "r2": 0.85,
+   "n": 19
+  },
+  "placebo: burden 5 quarters later": {
+   "slope": -0.181,
+   "se": 0.02,
+   "r2": 0.65,
+   "n": 14
+  },
+  "residual_df_t": -3.52,
+  "eg_crit_5pct_asymptotic": -3.34
+ },
+ "groups": {
+  "Major banks": {
+   "slope": 0.064,
+   "se": 0.004,
+   "r2": 0.94,
+   "npl_now": 1.07,
+   "npl_low": 0.7,
+   "npl_peak": 1.11,
+   "io_share": 12.2,
+   "investor_share": 31.8,
+   "lvr_ge90_share": null,
+   "funded_le3y_share": 60.1,
+   "new_dti_ge6": 6.6,
+   "credit_bn": 1948.0
+  },
+  "Other domestic banks": {
+   "slope": 0.056,
+   "se": 0.004,
+   "r2": 0.89,
+   "npl_now": 0.77,
+   "npl_low": 0.53,
+   "npl_peak": 0.93,
+   "io_share": 12.7,
+   "investor_share": 29.3,
+   "lvr_ge90_share": 1.8,
+   "funded_le3y_share": 66.4,
+   "new_dti_ge6": 2.1,
+   "credit_bn": 455.0
+  },
+  "Foreign subsidiary banks": {
+   "slope": -0.0,
+   "se": 0.035,
+   "r2": 0.0,
+   "npl_now": 1.07,
+   "npl_low": 0.9,
+   "npl_peak": 1.81,
+   "io_share": 8.5,
+   "investor_share": 27.6,
+   "lvr_ge90_share": 1.8,
+   "funded_le3y_share": 61.5,
+   "new_dti_ge6": 0.9,
+   "credit_bn": 125.0
+  },
+  "Mutual ADIs": {
+   "slope": 0.043,
+   "se": 0.004,
+   "r2": 0.88,
+   "npl_now": 0.48,
+   "npl_low": 0.26,
+   "npl_peak": 0.56,
+   "io_share": 6.3,
+   "investor_share": 19.5,
+   "lvr_ge90_share": null,
+   "funded_le3y_share": 61.2,
+   "new_dti_ge6": 2.3,
+   "credit_bn": 153.0
+  }
+ },
+ "npl_by_lvr": {
+  "LVR < 60%": [
+   0.62,
+   0.58
+  ],
+  "60% \u2264 LVR < 80%": [
+   0.79,
+   0.72
+  ],
+  "80% \u2264 LVR < 90%": [
+   2.0,
+   1.56
+  ],
+  "LVR \u2265 95%": [
+   5.88,
+   5.89
+  ]
+ },
+ "bootstrap_slope_90": [
+  0.0526,
+  0.0671
+ ]
+}

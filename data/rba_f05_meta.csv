@@ -1,0 +1,40 @@
+series_id,title
+FILRSBVRT,Lending rates; Small business; Variable; Term
+FILRSBVOO,Lending rates; Small business; Variable; Overdraft
+FILRHLBVS,Lending rates; Housing loans; Banks; Variable; Standard; Owner-occupier
+FILRHLBVD,Lending rates; Housing loans; Banks; Variable; Discounted; Owner-occupier
+FILRHLBVO,Lending rates; Housing loans; Banks; Variable; Standard interest-only; Owner-occupier
+FILRHL3YF,Lending rates; Housing loans; Banks; 3-year fixed; Owner-occupier
+FILRHLBVSI,Lending rates; Housing loans; Banks; Variable; Standard; Investor
+FILRHLBVDI,Lending rates; Housing loans; Banks; Variable; Discounted; Investor
+FILRHLBVDO,Lending rates; Housing loans; Banks; Variable; Standard interest-only; Investor
+FILRHL3YFI,Lending rates; Housing loans; Banks; 3-year fixed; Investor
+FILRPLRCCS,Lending rates; Personal loans; Revolving credit; Credit cards; Standard
+FILRPLRCCL,Lending rates; Personal loans; Revolving credit; Credit cards; Low rate
+FILRSBVOT,Lending rates; Small business; Variable; Other; Term
+FILRSBVRO,Lending rates; Small business; Variable; Residential-secured; Overdraft
+FILRSBVSO,Lending rates; Small business; Variable; Small overdraft
+FILRSBVWA,Lending rates; Small business; Variable; Weighted-average rate on credit outstanding
+FILRSB3YF,Lending rates; Small business; 3-year fixed
+FILRLBWAV,Lending rates; Large business; Weighted-average rate on credit outstanding; Variable
+FILRLBWAB,Lending rates; Large business; Weighted-average rate on credit outstanding; Bills
+FILRPLTUF,Lending rates; Personal loans; Term loans (unsecured); Fixed
+FILRPLTUV,Lending rates; Personal loans; Term loans (unsecured); Variable
+FILRPLRCHE,Lending rates; Personal loans; Revolving credit; Home equity loans
+FILRPLRCML,Lending rates; Personal loans; Revolving credit; Margin loans
+FILRHLMMS,Lending rates; Housing loans; Mortgage managers; Variable; Standard
+FILRHLMMB,Lending rates; Housing loans; Mortgage managers; Variable; Basic
+FILRSAVR,Lending rates; Securitised housing loans; Average outstanding variable rate
+FILRSAVOPI,Lending rates; Securitised housing loans; Average outstanding variable rate; Owner-occupier; Principal & Interest
+FILRSAVOI,Lending rates; Securitised housing loans; Average outstanding variable rate; Owner-occupier; Interest Only
+FILRSAVIPI,Lending rates; Securitised housing loans; Average outstanding variable rate; Investor; Principal & Interest
+FILRSAVIIO,Lending rates; Securitised housing loans; Average outstanding variable rate; Investor; Interest Only
+,
+,
+,
+,
+,
+,
+,
+,
+,

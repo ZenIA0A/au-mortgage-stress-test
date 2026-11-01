@@ -1,0 +1,65 @@
+{
+ "passthrough_disc": {
+  "coef": [
+   0.84,
+   0.05,
+   -0.01,
+   -0.01
+  ],
+  "cumulative": 0.87,
+  "se": 0.04,
+  "n": 200
+ },
+ "passthrough_std": {
+  "coef": [
+   0.85,
+   0.07,
+   0.01,
+   -0.0
+  ],
+  "cumulative": 0.93,
+  "se": 0.02,
+  "n": 200
+ },
+ "spread_disc_latest": 2.45,
+ "spread_disc_2019": 3.25,
+ "spread_disc_2023_2025": 2.8,
+ "burden_trough": [
+  "2021Q3",
+  4.71
+ ],
+ "burden_peak": [
+  "2023Q4",
+  9.9
+ ],
+ "burden_low_2025": [
+  "2025Q3",
+  8.0
+ ],
+ "burden_latest": [
+  "2026Q2",
+  9.17
+ ],
+ "burden_2019q1": 6.33,
+ "burden_2011q1": 8.4,
+ "hdti_latest": 134.9,
+ "burden_after_sep26": 9.46,
+ "cash_peak_2023": 4.35,
+ "cash_trough": 0.1,
+ "cash_now": 4.6,
+ "cash_low_2025": 3.6,
+ "payment_600k": {
+  "Dec 2021 (cash rate 0.10%)": 2678.0,
+  "Dec 2023 (4.35%)": 4118.0,
+  "Sep 2025 (3.60%)": 3617.0,
+  "Jun 2026 (4.35%)": 3912.0,
+  "After 30 Sep 2026 hike (4.60%)": 3999.0
+ },
+ "rate_points": {
+  "Dec 2021 (cash rate 0.10%)": 3.45,
+  "Dec 2023 (4.35%)": 7.31,
+  "Sep 2025 (3.60%)": 6.05,
+  "Jun 2026 (4.35%)": 6.8,
+  "After 30 Sep 2026 hike (4.60%)": 7.02
+ }
+}
